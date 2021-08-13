@@ -90,19 +90,19 @@ async function getWeatherAPI(latitude,longitude){
 
 function matchIcon(weatherData){
     // Clear
-    if(weatherData === "Clear") return "/WEB/w2-day05/images/039-sun.png";
+    if(weatherData === "Clear") return "./images/039-sun.png";
     // Clouds
-    if(weatherData === "Clouds") return "/WEB/w2-day05/images/001-cloud.png";
+    if(weatherData === "Clouds") return "./images/001-cloud.png";
     // Rain
-    if(weatherData === "Rain") return "/WEB/w2-day05/images/003-rainy.png";
+    if(weatherData === "Rain") return "./images/003-rainy.png";
     // Snow
-    if(weatherData === "Snow") return "/WEB/w2-day05/images/006-snowy.png";
+    if(weatherData === "Snow") return "./images/006-snowy.png";
     // Thunderstorm
-    if(weatherData === "Thunderstorm") return "/WEB/w2-day05/images/008-storm.png";
+    if(weatherData === "Thunderstorm") return "./images/008-storm.png";
     // Drizzle
-    if(weatherData === "Drizzle") return "/WEB/w2-day05/images/031-snowflake.png";
+    if(weatherData === "Drizzle") return "./images/031-snowflake.png";
     // Atmosphere
-    if(weatherData === "Atmosphere") return "/WEB/w2-day05/images/033-hurricane.png";
+    if(weatherData === "Atmosphere") return "./images/033-hurricane.png";
 }
 
 function weatherWrapperComponent(li)
