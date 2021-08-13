@@ -1,0 +1,54 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* timer */
+.timer {
+    font-weight: 500;
+    font-size: 168px;
+    line-height: 168px;
+}
+
+.timer-content {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* // timer */
+
+/* memo */
+.memo-wrapper {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.memo {
+    font-size: 30px;
+}
+
+/* // memo */
+
+/* modal-button */
+.modal-button {
+    position: fixed;
+    right: 40px;
+    top: 40px;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    cursor: pointer;
+}
