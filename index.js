@@ -71,7 +71,7 @@ function getPosition(options){
 
 async function getWeatherAPI(latitude,longitude){
     // 위도와 경도가 있는 경우
-    const API_KEY = 'cdfa63ba83d3f81a126ccbc6249bf82f';
+    const API_KEY = '3ab04a4b6bdd93f0f4da00f3bf68dd7e';
     // api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}
     if(latitude & longitude){
         const result = await axios.get(
