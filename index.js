@@ -75,7 +75,7 @@ async function getWeatherAPI(latitude,longitude){
     // api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}
     if(latitude & longitude){
         const result = await axios.get(
-            `http://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&appid=${API_KEY}`
+            `//api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&appid=${API_KEY}`
         );
         return result;
     }
@@ -83,7 +83,7 @@ async function getWeatherAPI(latitude,longitude){
     // 없는경우에는 서울의 날씨데이터를 가져온다.
     // api.openweathermap.org/data/2.5/forecast?q={city name}&appid={API key}
     const result = await axios.get(
-    `http://api.openweathermap.org/data/2.5/forecast?q=Seoul&appid=${API_KEY}`
+    `//api.openweathermap.org/data/2.5/forecast?q=Seoul&appid=${API_KEY}`
     );
     return result;
 }
